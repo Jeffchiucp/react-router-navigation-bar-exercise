@@ -15,9 +15,9 @@ class NavBar extends Component {
   render() {
     return (
       <div>
-        <Button onClick={this.handleClick}>Home</Button>
-        <Button onClick={this.handleClick}>Project</Button>
-        <Button onClick={this.handleClick}>Info</Button>
+        <Button onClick={this.handleClick} butt={0}>Home</Button>
+        <Button onClick={this.handleClick} butt={1}>Project</Button>
+        <Button onClick={this.handleClick} butt={2}>Info</Button>
       </div>
     )
   }

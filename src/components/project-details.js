@@ -4,6 +4,8 @@ class ProjectDetails extends Component {
 
   render() {
 
+    const title = this.props.match.params.title
+
     return (
       <div>
         <h1>{title}</h1>
